@@ -6,19 +6,13 @@
   box-sizing: border-box;
 }
 .menu-container{
-  background-color: rgb(51, 50, 50);
-  padding: 20px;
-  color: white;
+  background-color: white;
+  padding: 0 8%;
+  color: #6C63FF;
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-}
-.logo{
-  margin-right: 30%;
-}
-.logo-photo{
-  width: fit-content;
+  justify-content: space-between;
 }
 .menus{
   display: flex;
@@ -30,20 +24,22 @@
   cursor: pointer;
 }
 .item:hover{
-  color:aquamarine ;
+  color:#6C63FF ;
   text-decoration: underline;
-  text-decoration-color: aquamarine;
+  text-decoration-color: #6C63FF;
 }
 .banner-img{
-  width: 450px;
+  width: fit-content;
 }
 .banner-container{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100vh;
-  background-image: url("./images/background.png"),
-  linear-gradient(45deg, rgb(8,8,8), rgb(33,33,33));
+  padding: 0 8%;
+  background:linear-gradient(45deg, rgb(8, 52, 88), rgb(44, 80, 3));
+  /* background-image: url("./images/background.png"),
+  linear-gradient(45deg, rgb(8,8,8), rgb(33,33,33)); */
   color: white;
 }
 .title{
@@ -62,21 +58,23 @@
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background-color:aquamarine;
+  background-color:#6C63FF;
   border-radius: 10px;
   font-size: 18px;
   cursor: pointer;
 }
 .btn:hover{
-  border: 5px solid paleturquoise;
+  border: 5px solid white;
 }
 span{
-  color: #7fffd4;
+  color: #6C63FF;
 }
 .btn img{
   width: 20px;
   padding-left: 8px;
 }
+
+/* Service section */
 .service-container{
   width: 100%;
   height: 100vh;
@@ -91,7 +89,7 @@ span{
 }
 .service-container h1::after{
   content: '';
-  background: #7fffd4;
+  background: #6C63FF;
   width: 100px;
   height: 5px;
   position: absolute;
@@ -116,14 +114,14 @@ span{
 .service i{
   font-size: 40px;
   margin-bottom: 10px;
-  color: #7fffd4;
+  color: #6C63FF;
 }
 .service h2{
   font-weight: 600;
   margin-bottom: 8px;
 }
 .service:hover{
-  background: #7fffd4;
+  background: #6C63FF;
   color: white;
   transform: scale(1.05);
 }
