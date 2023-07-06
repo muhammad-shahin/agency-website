@@ -124,6 +124,7 @@ span{
   border-radius: 5px;
   font-size: 14px;
   cursor: pointer;
+  margin-bottom: 20px;
   background: transparent;
   transition: transform 0.5s, background 0.5s;
 }
@@ -200,4 +201,81 @@ span{
   max-width: 100%;
   height: auto;
 
+}
+/* Footer section  */
+.footer{
+  padding-top: 30px;
+  background-color: #24262b;
+}
+.footer-container{
+  
+}
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: fit-content;
+  padding: 0 8%;
+  color: white;
+}
+/* .footer-col{
+  width: 25%;
+  padding: 0 8%;
+} */
+.footer-col h4{
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  background-color: #6C63FF;
+  width: 165px;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
+.footer-col ul{
+  list-style: none;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: white;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: white;
+}
+.footer-end{
+  text-align: center;
+  color: white;
+  padding: 10px;
 }
